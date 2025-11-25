@@ -381,12 +381,12 @@ const App: React.FC = () => {
            
 
             {/* Video Placeholder */}
-            <section className="mb-8 avoid-break">
+            {/* <section className="mb-8 avoid-break">
               <SectionHeader title="Introduction Video" />
               <div className="w-full aspect-video bg-gray-200 border border-gray-300 rounded-lg flex items-center justify-center text-gray-500">
                 <span className="text-sm sm:text-base">Your 2-5 min video can be embedded here</span>
               </div>
-            </section>
+            </section> */}
 
             {/* Projects */}
             <section className="mb-8">
