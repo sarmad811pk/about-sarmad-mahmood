@@ -38,7 +38,7 @@ const resumeData: ResumeData = {
       title: "Director, Product Management",
       company: "DataQ Health",
       dates: "03/2025 - Present",
-      location: "Islamabad, Pakistan - Remote",
+      location: "Islamabad, Pakistan",  
       points: [
         "Scaled analytics suite from MVP → enterprise platform supporting 15k+ providers and 2M+ patient records.",
         "Lead customer-driven product innovation through MVPs and rapid prototypes, validating solutions before scaling.",
@@ -89,7 +89,7 @@ const resumeData: ResumeData = {
       title: "Team Lead (Web Development)",
       company: "Netsolace, Inc.",
       dates: "01/2013 - 03/2014",
-      location: "Islamabad",
+      location: "Islamabad, Pakistan",
       points: [
         "Led global e-commerce/web solutions in high-traffic, load-balanced environments.",
         "Architected and deployed multi-language, multi-currency platforms with secure payment integrations.",
@@ -102,7 +102,7 @@ const resumeData: ResumeData = {
       title: "Senior Web Engineer (Web Development)",
       company: "Netsolace, Inc.",
       dates: "10/2008 - 12/2012",
-      location: "Islamabad",
+      location: "Islamabad, Pakistan",
       points: [
         "Core dev for Edible Arrangements' e-commerce platform",
         "Optimized e-commerce platform for scale, security, and performance.",
@@ -436,7 +436,7 @@ const App: React.FC = () => {
         
         {/* Footer / Copyright / Metadata for Print */}
         <div className="mt-12 pt-6 border-t border-gray-200 text-center text-xs sm:text-sm text-gray-400 print:hidden">
-          Create with ❤️ by Sarmad Mahmood
+          Created with ❤️ by Sarmad Mahmood
         </div>
       </main>
     </div>
