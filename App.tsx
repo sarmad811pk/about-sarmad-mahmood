@@ -323,18 +323,18 @@ const App: React.FC = () => {
             </div>
           </div>
 
-          <div className="w-20 h-20 sm:w-24 sm:h-24 md:w-28 md:h-28 lg:w-32 lg:h-32 rounded-full overflow-hidden border-4 border-gray-100 shadow-sm shrink-0 bg-gray-200 print:w-24 print:h-24">
+            <div className="w-20 h-20 sm:w-24 sm:h-24 md:w-28 md:h-28 lg:w-32 lg:h-32 rounded-full overflow-hidden border-4 border-gray-100 shadow-sm shrink-0 bg-gray-200 print:hidden">
              {/* Use a placeholder, user can replace src with real image */}
              <img 
-               src="img.png" 
+               src="https://raw.githubusercontent.com/sarmad811pk/about-sarmad-mahmood/refs/heads/main/img.png" 
                alt="Profile" 
                className="w-full h-full object-cover" 
              />
-          </div>
+            </div>
         </header>
 
         {/* Layout Grid */}
-        <div className="grid grid-cols-1 xl:grid-cols-[2fr_1fr] gap-8 lg:gap-12 xl:gap-16 print:grid-cols-[2fr_1fr] print:gap-8">
+        <div className="grid grid-cols-1 xl:grid-cols-[2fr_1fr] gap-8 lg:gap-12 xl:gap-16 print:grid-cols-[1fr] print:gap-8">
           
           {/* Left Column (Main) */}
           <div className="flex flex-col">
@@ -354,27 +354,12 @@ const App: React.FC = () => {
               ))}
             </section>
 
-             {/* Education Section */}
-             <section className="mb-8 avoid-break">
-              <SectionHeader title="Education" />
-              {resumeData.education.map((edu) => (
-                <div key={edu.id} className="mb-6">
-                  <h3 className="text-base sm:text-lg font-bold text-gray-900 print:text-base">{edu.degree}</h3>
-                  <div className="text-sm sm:text-base font-semibold text-cv-blue mt-1 print:text-sm">{edu.school}</div>
-                  <div className="flex items-center text-xs sm:text-sm text-gray-500 mt-2 print:text-xs">
-                    <svg className="w-3 h-3 mr-1.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
-                      <path fillRule="evenodd" d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z" clipRule="evenodd" />
-                    </svg>
-                    {edu.dates}
-                  </div>
-                </div>
-              ))}
-            </section>
+            
 
           </div>
 
-          {/* Right Column (Sidebar) */}
-          <div className="flex flex-col">
+            {/* Right Column (Sidebar) */}
+            <div className="flex flex-col">
             
 
 
@@ -409,7 +394,22 @@ const App: React.FC = () => {
               </div>
             </section>
 
-            
+             {/* Education Section */}
+             <section className="mb-8 avoid-break">
+              <SectionHeader title="Education" />
+              {resumeData.education.map((edu) => (
+                <div key={edu.id} className="mb-6">
+                  <h3 className="text-base sm:text-lg font-bold text-gray-900 print:text-base">{edu.degree}</h3>
+                  <div className="text-sm sm:text-base font-semibold text-cv-blue mt-1 print:text-sm">{edu.school}</div>
+                  <div className="flex items-center text-xs sm:text-sm text-gray-500 mt-2 print:text-xs">
+                    <svg className="w-3 h-3 mr-1.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                      <path fillRule="evenodd" d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z" clipRule="evenodd" />
+                    </svg>
+                    {edu.dates}
+                  </div>
+                </div>
+              ))}
+            </section>
 
              {/* Languages */}
             <section className="mb-8 avoid-break">
@@ -436,7 +436,7 @@ const App: React.FC = () => {
         
         {/* Footer / Copyright / Metadata for Print */}
         <div className="mt-12 pt-6 border-t border-gray-200 text-center text-xs sm:text-sm text-gray-400 print:hidden">
-          Generated with React & Tailwind CSS
+          Create with ❤️ by Sarmad Mahmood
         </div>
       </main>
     </div>
