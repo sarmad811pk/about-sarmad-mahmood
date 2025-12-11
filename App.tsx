@@ -14,9 +14,9 @@ const resumeData: ResumeData = {
     linkedin: "https://www.linkedin.com/in/sarmadmahmood/",
     location: "ISB, PK - Remote", // Placeholder
   },
-  summary: `Started as a software engineer, grew into architect, and now lead product development with hands-on solutioning — consistently bridging vision with execution. I don’t just plan; I deliver first versions fast.
+  summary: `With 18+ years across product management, healthcare analytics, and full-stack development, I’ve built and scaled platforms for value-based care, risk adjustment, and quality programs. I blend product leadership with rapid prototyping (Balsamiq, Figma, SQL, BI, AI) to turn strategy into MVPs and working solutions that drive adoption.
   
-  With 18+ years across product management, healthcare analytics, and full-stack development, I’ve built and scaled platforms for value-based care, risk adjustment, and quality programs. I blend product leadership with rapid prototyping (Balsamiq, Figma, SQL, BI, AI) to turn strategy into MVPs and working solutions that drive adoption.
+  Started as a software engineer, grew into architect, and now lead product development with hands-on solutioning — consistently bridging vision with execution. I don’t just plan; I deliver first versions fast.
   
   <strong>Domains:</strong> US healthcare, population health, payer/provider workflows, interoperability.  
   <strong>Skills:</strong> Enterprise Solutioning, Product strategy, MVP/POC execution, data analytics, SQL, BI, AI agents, workflow automation.`,
