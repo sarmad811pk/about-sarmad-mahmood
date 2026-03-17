@@ -40,10 +40,12 @@ const resumeData: ResumeData = {
       dates: "03/2025 - Present",
       location: "Islamabad, Pakistan",  
       points: [
-        "Scaled analytics suite from MVP → enterprise platform supporting 15k+ providers and 2M+ patient records.",
-        "Lead customer-driven product innovation through MVPs and rapid prototypes, validating solutions before scaling.",
-        "Build AI-assisted workflows (data extraction, patient stratification, chart review automation) to accelerate healthcare analytics adoption.",
-        "Align roadmap with market/regulatory shifts (VBC, payer demands) to maintain competitiveness."
+        "Scaled 360 Deeplearn from MVP to enterprise-grade population health platform, supporting 15K+ providers and 2M+ patient records",
+        "Architected unified data and analytics workflows (Claims, FHIR, CCDA, QRDA, ADT), enabling risk adjustment, quality reporting, and financial insights at scale",
+        "Built and operationalized AI-assisted workflows (data extraction, patient stratification, automated chart review) to improve throughput and reduce manual effort",
+        "Drove customer-led product innovation via MVPs and rapid prototyping, accelerating validation cycles and time-to-market for new capabilities",
+        "Drove customer-led product innovation via MVPs and rapid prototyping, accelerating validation cycles and time-to-market for new capabilities",
+        "Integrated system with MARA (Milliman) Insights for Financial and Utilization Risks."
       ]
     },
     {
@@ -57,7 +59,8 @@ const resumeData: ResumeData = {
         "Personally built SQL prototypes, BI dashboards, and workflow mockups that accelerated buy-in from customers & execs.",
         "Drove risk adjustment, stratification, and quality care workflows from ideation → MVP → market launch.",
         "Led data engineering teams hands-on, defining KPIs, pipelines, and reporting logic.",
-        "Rapidly implemented POCs for client pilots, reducing sales cycles and increasing adoption."
+        "Rapidly implemented POCs for client pilots, reducing sales cycles and increasing adoption.",
+        "Implemented John Hopkins ACG System for clinical and predictive insights for Medicare, MA, and Commercial Populations."
       ]
     },
     {
