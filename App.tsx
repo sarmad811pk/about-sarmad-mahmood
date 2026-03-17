@@ -7,7 +7,7 @@ import { ResumeData, Experience, Project } from './types';
 
 const resumeData: ResumeData = {
   name: "SARMAD MAHMOOD",
-  title: "Director, Product Management | Healthcare Analytics & Digital Transformation | US HealthTech",
+  title: "Product Lead | Healthcare Analytics & Digital Transformation | US HealthTech",
   contact: {
     phone: "+92 345 512 0811", // Placeholder as per image privacy
     email: "sarmad811pk@gmail.com", // Placeholder
