@@ -40,11 +40,11 @@ const resumeData: ResumeData = {
       dates: "03/2025 - Present",
       location: "Islamabad, Pakistan",  
       points: [
-        "Scaled 360 Deeplearn from MVP to enterprise-grade population health platform, supporting 15K+ providers and 2M+ patient records",
+        "Scaled 360 Deeplearn (Heathcare Analytics and Workflow app) from MVP to enterprise-grade population health platform, supporting 15K+ providers and 2M+ patient records",
         "Architected unified data and analytics workflows (Claims, FHIR, CCDA, QRDA, ADT), enabling risk adjustment, quality reporting, and financial insights at scale",
         "Built and operationalized AI-assisted workflows (data extraction, patient stratification, automated chart review) to improve throughput and reduce manual effort",
-        "Drove customer-led product innovation via MVPs and rapid prototyping, accelerating validation cycles and time-to-market for new capabilities",
-        "Drove customer-led product innovation via MVPs and rapid prototyping, accelerating validation cycles and time-to-market for new capabilities",
+        "Drove customer-led product innovation via MVPs and rapid prototyping, accelerating validation cycles and time-to-market for new capabilities", 
+        "Compressed client onboarding timelines, enabling faster go-live and accelerating revenue realization across new enterprise accounts",
         "Integrated system with MARA (Milliman) Insights for Financial and Utilization Risks."
       ]
     },
