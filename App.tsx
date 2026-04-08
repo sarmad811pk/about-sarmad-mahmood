@@ -14,17 +14,17 @@ const resumeData: ResumeData = {
     linkedin: "https://www.linkedin.com/in/sarmadmahmood/",
     location: "ISB, PK - Remote", // Placeholder
   },
-  summary: `I am a **Product Leader** with **18+ years of experience** across SaaS, data analytics, and workflow systems. With a background in **software engineering and architecture**, I bridge the gap between **business strategy** and **technical execution**—ensuring that products are both buildable and scalable.
+  summary: `I am a <strong>Product Leader</strong> with <strong>18+ years of experience</strong> across SaaS, data analytics, and workflow systems. With a background in <strong>software engineering and architecture</strong>, I bridge the gap between <strong>business strategy</strong> and <strong>technical execution</strong>—ensuring that products are both buildable and scalable.
 
-My work centers on solving **operational friction** in complex environments. While much of my career has been in **Healthcare IT**—supporting **15K+ providers** and **millions of records**—the core of my role is designing systems that manage **high-density data** and **regulatory requirements**. I focus on **reducing cognitive load** and **improving decision-making** for teams operating at scale.
+My work centers on solving <strong>operational friction</strong> in complex environments. While much of my career has been in <strong>Healthcare IT</strong>—supporting <strong>15K+ providers</strong> and <strong>millions of records</strong>—the core of my role is designing systems that manage <strong>high-density data</strong> and <strong>regulatory requirements</strong>. I focus on <strong>reducing cognitive load</strong> and <strong>improving decision-making</strong> for teams operating at scale.
 
-I stay hands-on with a modern **AI stack**, using **VSCode Copilot**, **Figma**, and **AI Studio** to move from concept to a functional **Proof of Concept (PoC)** quickly. I have a functional understanding of **Prompt Engineering** and **LLMs**, which I use to deploy **cost-effective AI solutions** that solve specific workflow problems rather than just adding features.
+I stay hands-on with a modern <strong>AI stack</strong>, using <strong>VSCode Copilot</strong>, <strong>Figma</strong>, and <strong>AI Studio</strong> to move from concept to a functional <strong>Proof of Concept (PoC)</strong> quickly. I have a functional understanding of <strong>Prompt Engineering</strong> and <strong>LLMs</strong>, which I use to deploy <strong>cost-effective AI solutions</strong> that solve specific workflow problems rather than just adding features.
 
-**Core Focus:**
-- **Product Strategy**: Roadmap Vision, GTM, and P&L Alignment.
-- **Systems Architecture**: Multi-tenant SaaS, Scaling, and Complex Data Workflows.
-- **AI Implementation**: GenAI, LLM Frameworks, and Technical Feasibility.
-- **Hands-on Prototyping**: SQL, BI, Figma, and VSCode.
+<strong>Core Focus:</strong>
+- <strong>Product Strategy</strong>: Roadmap Vision, GTM, and P&L Alignment.
+- <strong>Systems Architecture</strong>: Multi-tenant SaaS, Scaling, and Complex Data Workflows.
+- <strong>AI Implementation</strong>: GenAI, LLM Frameworks, and Technical Feasibility.
+- <strong>Hands-on Prototyping</strong>: SQL, BI, Figma, and VSCode.
 `,
   languages: ["English (Advanced)", "Urdu (Native)"],
   certifications: [
