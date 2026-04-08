@@ -14,19 +14,20 @@ const resumeData: ResumeData = {
     linkedin: "https://www.linkedin.com/in/sarmadmahmood/",
     location: "ISB, PK - Remote", // Placeholder
   },
-  summary: `Product leader with 18+ years across SaaS, healthcare analytics, and workflow-driven platforms. I specialize in turning complex operational problems into scalable, usable products that drive real-world impact.
+  summary: `I am a **Product Leader** with **18+ years of experience** across SaaS, healthcare analytics, and workflow-driven platforms. My background as a **software engineer and architect** allows me to navigate the gap between business strategy and technical execution—ensuring that what we plan is actually buildable and scalable.
 
-  I started as a software engineer, grew into architecture, and now lead product delivery end-to-end—combining strategy with hands-on prototyping (SQL, BI, workflows, AI-assisted solutions) to move ideas quickly from concept to production.
+I have led the **end-to-end delivery** of platforms supporting **15K+ providers** and **millions of patient records**. My work focuses on domains like **population health**, **risk adjustment**, and **care management**, where I specialize in turning complex operational friction into usable products.
 
-  I’ve built and scaled platforms supporting 15K+ providers and millions of patient records, across domains like population health, risk adjustment, and care management.
+I remain a **hands-on leader**. I use an **AI-assisted stack**—including VSCode Copilot, Figma, and AI Studio—to move from concept to a functional **Proof of Concept (PoC)** quickly. I understand how **Prompt Engineering** and **LLMs** work at a foundational level, allowing me to deploy pragmatic, cost-effective AI solutions that solve real workflow problems rather than just adding "features."
 
-  I use AI where it adds real value, but I’m equally focused on pragmatic, cost-effective solutions that scale.
+My goal is to design systems that **reduce cognitive load**, **improve decision-making**, and enable teams to operate more efficiently at scale.
 
-  My focus is not just on building features, but on optimizing workflows—reducing friction, improving decision-making, and enabling teams to operate more efficiently.
-
-  Worked extensively with US-based teams, clients, and healthcare systems in remote environments.
-
-  Core areas: SaaS platforms, workflow optimization, data-driven products, AI-assisted systems, healthcare interoperability.`,
+**Core Expertise:**
+- **Product Strategy**: Roadmap Vision, GTM, and P&L Alignment.
+- **Healthcare Systems**: Interoperability (HL7, FHIR) and Clinical Workflows.
+- **AI Implementation**: GenAI, LLMs, and Technical Feasibility.
+- **Prototyping**: SQL, BI, Figma, and VSCode.
+`,
   languages: ["English (Advanced)", "Urdu (Native)"],
   certifications: [
     { id: "1", title: "The Complete Agentic AI Engineering Course (2025): OpenAI SDK, CrewAI, LangGraph, AutoGen, MCP", provider: "Udemy" },
