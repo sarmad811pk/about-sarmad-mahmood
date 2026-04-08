@@ -7,7 +7,7 @@ import { ResumeData, Experience, Project } from './types';
 
 const resumeData: ResumeData = {
   name: "SARMAD MAHMOOD",
-  title: "Senior Product Owner / Product Lead | SaaS, Workflow Platforms & Healthcare Systems",
+  title: "Senior Product Owner / Product Lead | SaaS, Workflow Platforms & Healthcare Systems | HeatlhTech US",
   contact: {
     phone: "+92 345 512 0811", // Placeholder as per image privacy
     email: "sarmad811pk@gmail.com", // Placeholder
