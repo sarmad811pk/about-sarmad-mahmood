@@ -356,7 +356,7 @@ const App: React.FC = () => {
             </section>
 
             {/* Experience Section */}
-            <section className="mb-8 break-inside-auto">
+            <section className="mb-8 break-inside-auto break-before-page">
               <SectionHeader title="Experience" />
               {resumeData.experience.map((exp) => (
                 <ExperienceItem key={exp.id} exp={exp} />
@@ -383,7 +383,7 @@ const App: React.FC = () => {
             </section> */}
 
             {/* Projects */}
-            <section className="mb-8">
+            <section className="mb-8 break-before-page">
               <SectionHeader title="Projects & Products" />
               {resumeData.projects.map((proj) => (
                 <ProjectItem key={proj.id} project={proj} />
