@@ -7,7 +7,7 @@ import { ResumeData, Experience, Project } from './types';
 
 const resumeData: ResumeData = {
   name: "SARMAD MAHMOOD",
-  title: "Senior Product Owner / Product Lead | SaaS, Workflow Platforms & Healthcare Systems",
+  title: "Product Lead | SaaS, Workflow Platforms & Data-Driven Systems | Global SaaS (US Healthcare)",
   contact: {
     phone: "+92 345 512 0811", // Placeholder as per image privacy
     email: "sarmad811pk@gmail.com", // Placeholder
@@ -23,6 +23,8 @@ const resumeData: ResumeData = {
   I’ve built and scaled platforms supporting 15K+ providers and millions of patient records, across domains like population health, risk adjustment, and care management.
 
   I use AI where it adds real value, but I’m equally focused on pragmatic, cost-effective solutions that scale.
+
+  Worked extensively with US-based teams, clients, and healthcare systems in remote environments.
 
   Core areas: SaaS platforms, workflow optimization, data-driven products, AI-assisted systems, healthcare interoperability.`,
   languages: ["English (Advanced)", "Urdu (Native)"],
@@ -210,7 +212,7 @@ const resumeData: ResumeData = {
 // --- COMPONENTS ---
 
 const SectionHeader = ({ title }: { title: string }) => (
-  <h2 className="text-lg sm:text-xl font-bold uppercase border-b-2 border-black mb-4 sm:mb-6 pb-2 tracking-wider mt-6 sm:mt-8 first:mt-0 print:text-lg print:mb-4 print:mt-6">
+  <h2 className="text-lg sm:text-xl font-bold uppercase border-b-2 border-black mb-4 sm:mb-6 pb-2 tracking-wider mt-6 sm:mt-8 first:mt-0 print:text-lg print:mb-4 print:mt-6 break-after-avoid">
     {title}
   </h2>
 );
@@ -355,7 +357,7 @@ const App: React.FC = () => {
             </section>
 
             {/* Experience Section */}
-            <section className="mb-8">
+            <section className="mb-8 break-inside-auto">
               <SectionHeader title="Experience" />
               {resumeData.experience.map((exp) => (
                 <ExperienceItem key={exp.id} exp={exp} />

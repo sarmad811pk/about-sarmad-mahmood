@@ -13,11 +13,11 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v4.2.2
 
-      - uses: actions/setup-node@v4
+      - uses: actions/setup-node@v4.4.0
         with:
-          node-version: 20
+          node-version: 24
 
       - name: Install dependencies
         run: npm install
@@ -36,4 +36,4 @@ jobs:
     environment:
       name: github-pages     # REQUIRED
     steps:
-      - uses: actions/deploy-pages@v4
+      - uses: actions/deploy-pages@v4.0.5
