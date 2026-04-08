@@ -18,11 +18,11 @@ const resumeData: ResumeData = {
 
   I started as a software engineer, grew into architecture, and now lead product delivery end-to-end—combining strategy with hands-on prototyping (SQL, BI, workflows, AI-assisted solutions) to move ideas quickly from concept to production.
 
-  My focus is not just on building features, but on optimizing workflows—reducing friction, improving decision-making, and enabling teams to operate more efficiently.
-
   I’ve built and scaled platforms supporting 15K+ providers and millions of patient records, across domains like population health, risk adjustment, and care management.
 
   I use AI where it adds real value, but I’m equally focused on pragmatic, cost-effective solutions that scale.
+
+  My focus is not just on building features, but on optimizing workflows—reducing friction, improving decision-making, and enabling teams to operate more efficiently.
 
   Worked extensively with US-based teams, clients, and healthcare systems in remote environments.
 
