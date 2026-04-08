@@ -14,19 +14,17 @@ const resumeData: ResumeData = {
     linkedin: "https://www.linkedin.com/in/sarmadmahmood/",
     location: "ISB, PK - Remote", // Placeholder
   },
-  summary: `I am a **Product Leader** with **18+ years of experience** across SaaS, healthcare analytics, and workflow-driven platforms. My background as a **software engineer and architect** allows me to navigate the gap between business strategy and technical execution—ensuring that what we plan is actually buildable and scalable.
+  summary: `I am a **Product Leader** with **18+ years of experience** across SaaS, data analytics, and workflow systems. With a background in **software engineering and architecture**, I bridge the gap between **business strategy** and **technical execution**—ensuring that products are both buildable and scalable.
 
-I have led the **end-to-end delivery** of platforms supporting **15K+ providers** and **millions of patient records**. My work focuses on domains like **population health**, **risk adjustment**, and **care management**, where I specialize in turning complex operational friction into usable products.
+My work centers on solving **operational friction** in complex environments. While much of my career has been in **Healthcare IT**—supporting **15K+ providers** and **millions of records**—the core of my role is designing systems that manage **high-density data** and **regulatory requirements**. I focus on **reducing cognitive load** and **improving decision-making** for teams operating at scale.
 
-I remain a **hands-on leader**. I use an **AI-assisted stack**—including VSCode Copilot, Figma, and AI Studio—to move from concept to a functional **Proof of Concept (PoC)** quickly. I understand how **Prompt Engineering** and **LLMs** work at a foundational level, allowing me to deploy pragmatic, cost-effective AI solutions that solve real workflow problems rather than just adding "features."
+I stay hands-on with a modern **AI stack**, using **VSCode Copilot**, **Figma**, and **AI Studio** to move from concept to a functional **Proof of Concept (PoC)** quickly. I have a functional understanding of **Prompt Engineering** and **LLMs**, which I use to deploy **cost-effective AI solutions** that solve specific workflow problems rather than just adding features.
 
-My goal is to design systems that **reduce cognitive load**, **improve decision-making**, and enable teams to operate more efficiently at scale.
-
-**Core Expertise:**
+**Core Focus:**
 - **Product Strategy**: Roadmap Vision, GTM, and P&L Alignment.
-- **Healthcare Systems**: Interoperability (HL7, FHIR) and Clinical Workflows.
-- **AI Implementation**: GenAI, LLMs, and Technical Feasibility.
-- **Prototyping**: SQL, BI, Figma, and VSCode.
+- **Systems Architecture**: Multi-tenant SaaS, Scaling, and Complex Data Workflows.
+- **AI Implementation**: GenAI, LLM Frameworks, and Technical Feasibility.
+- **Hands-on Prototyping**: SQL, BI, Figma, and VSCode.
 `,
   languages: ["English (Advanced)", "Urdu (Native)"],
   certifications: [
