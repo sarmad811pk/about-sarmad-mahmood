@@ -7,19 +7,24 @@ import { ResumeData, Experience, Project } from './types';
 
 const resumeData: ResumeData = {
   name: "SARMAD MAHMOOD",
-  title: "Product Lead | Healthcare Analytics & Digital Transformation | US HealthTech",
+  title: "Senior Product Owner / Product Lead | SaaS, Workflow Platforms & Healthcare Systems",
   contact: {
     phone: "+92 345 512 0811", // Placeholder as per image privacy
     email: "sarmad811pk@gmail.com", // Placeholder
     linkedin: "https://www.linkedin.com/in/sarmadmahmood/",
     location: "ISB, PK - Remote", // Placeholder
   },
-  summary: `With 18+ years across product management, healthcare analytics, and full-stack development, I’ve built and scaled platforms for value-based care, risk adjustment, and quality programs. I blend product leadership with rapid prototyping (Balsamiq, Figma, SQL, BI, AI) to turn strategy into MVPs and working solutions that drive adoption.
-  
-  Started as a software engineer, grew into architect, and now lead product development with hands-on solutioning — consistently bridging vision with execution. I don’t just plan; I deliver first versions fast.
-  
-  <strong>Domains:</strong> US healthcare, population health, payer/provider workflows, interoperability.  
-  <strong>Skills:</strong> Enterprise Solutioning, Product strategy, MVP/POC execution, data analytics, SQL, BI, AI agents, workflow automation.`,
+  summary: `Product leader with 18+ years across SaaS, healthcare analytics, and workflow-driven platforms. I specialize in turning complex operational problems into scalable, usable products that drive real-world impact.
+
+  I started as a software engineer, grew into architecture, and now lead product delivery end-to-end—combining strategy with hands-on prototyping (SQL, BI, workflows, AI-assisted solutions) to move ideas quickly from concept to production.
+
+  My focus is not just on building features, but on optimizing workflows—reducing friction, improving decision-making, and enabling teams to operate more efficiently.
+
+  I’ve built and scaled platforms supporting 15K+ providers and millions of patient records, across domains like population health, risk adjustment, and care management.
+
+  I use AI where it adds real value, but I’m equally focused on pragmatic, cost-effective solutions that scale.
+
+  Core areas: SaaS platforms, workflow optimization, data-driven products, AI-assisted systems, healthcare interoperability.`,
   languages: ["English (Advanced)", "Urdu (Native)"],
   certifications: [
     { id: "1", title: "The Complete Agentic AI Engineering Course (2025): OpenAI SDK, CrewAI, LangGraph, AutoGen, MCP", provider: "Udemy" },
@@ -40,12 +45,12 @@ const resumeData: ResumeData = {
       dates: "03/2025 - Present",
       location: "Islamabad, Pakistan",  
       points: [
-        "Scaled 360 Deeplearn (Heathcare Analytics and Workflow app) from MVP to enterprise-grade population health platform, supporting 15K+ providers and 2M+ patient records",
-        "Architected unified data and analytics workflows (Claims, FHIR, CCDA, QRDA, ADT), enabling risk adjustment, quality reporting, and financial insights at scale",
-        "Built and operationalized AI-assisted workflows (data extraction, patient stratification, automated chart review) to improve throughput and reduce manual effort",
-        "Drove customer-led product innovation via MVPs and rapid prototyping, accelerating validation cycles and time-to-market for new capabilities", 
-        "Compressed client onboarding timelines, enabling faster go-live and accelerating revenue realization across new enterprise accounts",
-        "Integrated system with MARA (Milliman) Insights for Financial and Utilization Risks."
+        "Scaled 360Deeplearn from MVP to an enterprise population health platform supporting 15K+ providers and 2M+ patient records.",
+        "Designed unified data and workflow architecture across Claims, FHIR, CCDA, QRDA, and ADT streams.",
+        "Built AI-assisted and rules-driven workflows (patient stratification, chart review, data extraction), improving operational efficiency and reducing manual effort.",
+        "Drove rapid MVP and prototyping approach (SQL, BI, workflow simulations) to accelerate validation and shorten time-to-market.",
+        "Reduced client onboarding timelines and improved go-live speed across enterprise implementations.",
+        "Integrated external risk models (Milliman MARA) for financial and utilization insights."
       ]
     },
     {
@@ -55,12 +60,12 @@ const resumeData: ResumeData = {
       dates: "02/2018 - 03/2025",
       location: "Islamabad, Pakistan",
       points: [
-        "Designed & shipped enterprise products (including 360Deeplearn, Risk adjustment Coding and quality Modules) used by payers/providers in value-based care.",
-        "Personally built SQL prototypes, BI dashboards, and workflow mockups that accelerated buy-in from customers & execs.",
-        "Drove risk adjustment, stratification, and quality care workflows from ideation → MVP → market launch.",
-        "Led data engineering teams hands-on, defining KPIs, pipelines, and reporting logic.",
-        "Rapidly implemented POCs for client pilots, reducing sales cycles and increasing adoption.",
-        "Implemented John Hopkins ACG System for clinical and predictive insights for Medicare, MA, and Commercial Populations."
+        "Delivered enterprise healthcare products for risk adjustment, quality reporting, and population analytics.",
+        "Translated complex workflows into scalable product features across care management and analytics.",
+        "Built working prototypes (SQL, dashboards, workflows) to accelerate stakeholder alignment and product validation.",
+        "Led cross-functional teams across data engineering, product, and QA.",
+        "Delivered rapid POCs for client pilots, reducing sales cycles and improving adoption.",
+        "Implemented Johns Hopkins ACG for predictive analytics across Medicare and commercial populations."
       ]
     },
     {
