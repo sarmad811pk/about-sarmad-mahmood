@@ -7,7 +7,7 @@ import { ResumeData, Experience, Project } from './types';
 
 const resumeData: ResumeData = {
   name: "SARMAD MAHMOOD",
-  title: "Product Lead | SaaS, Workflow Platforms & Data-Driven Systems | Global SaaS (US Healthcare)",
+  title: "Senior Product Manager | SaaS, Workflow Platforms & Data-Driven Systems | US Healthcare",
   contact: {
     phone: "+92 345 512 0811", // Placeholder as per image privacy
     email: "sarmad811pk@gmail.com", // Placeholder
@@ -16,9 +16,9 @@ const resumeData: ResumeData = {
   },
   summary: `I am a Product Leader with 18+ years of experience across SaaS, data analytics, and workflow systems. With a background in software engineering and architecture, I bridge the gap between business strategy and technical execution—ensuring that products are both buildable and scalable.
 
-My work centers on solving operational friction in complex environments. While much of my career has been in Healthcare IT—supporting 15K+ providers and millions of records—the core of my role is designing systems that manage high-density data and regulatory requirements. I focus on reducing cognitive load and improving decision-making for teams operating at scale.
+Most of my career has been in Healthcare IT—building systems that handle high-density data, complex workflows, and regulatory requirements at scale. I've supported 15K+ providers and millions of patient records, where the cost of poor product decisions is measured in clinical and financial outcomes, not just user experience.
 
-I stay hands-on with a modern AI stack, using VSCode Copilot, Figma, and AI Studio to move from concept to a functional Proof of Concept (PoC) quickly. I have a functional understanding of Prompt Engineering and LLMs, which I use to deploy cost-effective AI solutions that solve specific workflow problems rather than just adding features.
+I stay hands-on with a modern AI stack, using VSCode Copilot, Claude AI, Figma, and AI Studio to move from concept to a functional Proof of Concept (PoC) quickly. I have a functional understanding of Prompt Engineering and LLMs, which I use to deploy cost-effective AI solutions that solve specific workflow problems rather than just adding features.
 
 <strong>Core Focus:</strong>
 - <strong>Product Strategy</strong>: Roadmap Vision, GTM, and P&L Alignment.
@@ -41,7 +41,7 @@ I stay hands-on with a modern AI stack, using VSCode Copilot, Figma, and AI Stud
   experience: [
     {
       id: "1",
-      title: "Director, Product Management",
+      title: "Senior Product Manager",
       company: "DataQ Health",
       dates: "03/2025 - Present",
       location: "Islamabad, Pakistan",  
