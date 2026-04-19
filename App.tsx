@@ -51,7 +51,9 @@ I stay hands-on with a modern AI stack — using Figma AI, VSCode Copilot, and A
         "Scaled 360Deeplearn from MVP to an enterprise population health platform supporting 15K+ providers and 2M+ patient records across value-based care, risk adjustment, and quality programs.",
         "Shipped Patient Stratification / Cohort Builder into production — reducing patient identification time by ~70–80% and improving care program enrollment efficiency across ACO and provider clients.",
         "Shipped hybrid AI document processing pipeline (OCR + NLP + rules + selective AI fallback) — reducing processing cost by ~80–90% and improving throughput by 3–5x while maintaining clinical accuracy.",
+        "Shipped AI ambient documentation tool integrating real-time physician-patient conversation recording with automated encounter note generation — eliminating manual transcription from clinical workflows.",
         "Introduced AI-assisted chart review into production workflows — increasing reviewer throughput by 2–3x and significantly reducing manual effort per case.",
+        "Leading in-house rebuild of the scribe engine, replacing third-party dependency with proprietary diarization, speech-to-text, and speaker identification — reducing cost and increasing control over clinical data handling.",
         "Designed unified data and workflow architecture across Claims, FHIR, CCDA, QRDA, and ADT streams to support enterprise-scale data ingestion.",
         "Integrated Milliman MARA risk models for financial and utilization insights across enterprise implementations."
       ]
