@@ -9,24 +9,24 @@ const resumeData: ResumeData = {
   name: "SARMAD MAHMOOD",
   title: "Senior Product Manager | SaaS, Workflow Platforms & Data-Driven Systems | US Healthcare",
   contact: {
-    phone: "+92 345 512 0811", // Placeholder as per image privacy
-    email: "sarmad811pk@gmail.com", // Placeholder
+    phone: "+92 345 512 0811",
+    email: "sarmad811pk@gmail.com",
     linkedin: "https://www.linkedin.com/in/sarmadmahmood/",
-    location: "ISB, PK - Remote", // Placeholder
+    location: "ISB, PK - Remote",
   },
-  summary: `I am a Product Leader with 18+ years of experience across SaaS, data analytics, and workflow systems. With a background in software engineering and architecture, I bridge the gap between business strategy and technical execution—ensuring that products are both buildable and scalable.
+  summary: `Product leader with 18+ years of experience across SaaS, data analytics, and complex workflow systems. Grounded in software engineering and architecture, I bridge business strategy with technical execution — ensuring products are both buildable and scalable from day one.
 
-Most of my career has been in Healthcare IT—building systems that handle high-density data, complex workflows, and regulatory requirements at scale. I've supported 15K+ providers and millions of patient records, where the cost of poor product decisions is measured in clinical and financial outcomes, not just user experience.
+Most of my career has been in US Healthcare IT — supporting 15K+ providers and 2M+ patient records across value-based care, risk adjustment, and population health programs. I operate in environments where the cost of a poor product decision shows up in clinical and financial outcomes, not just user experience metrics.
 
-Before that, I built and scaled e-commerce platform serving 1,100+ franchises across 13 countries, that background gives me hands-on experience with transactional systems, multi-currency commerce, localization at scale, and finance-driven workflows (Team Size 11 People).
+My validation approach is prototype-led — I validate assumptions through working prototypes and real data during client sessions, moving from problem to validated solution in weeks rather than months. This has allowed me to reduce time-to-validation significantly — outpacing competitors on population health SaaS rollouts by delivering working systems in 2 weeks vs. industry-standard multi-month timelines.
 
-I stay hands-on with a modern AI stack, using VSCode Copilot, Claude AI, Figma, and AI Studio to move from concept to a functional Proof of Concept (PoC) quickly. I have a functional understanding of Prompt Engineering and LLMs, which I use to deploy cost-effective AI solutions that solve specific workflow problems rather than just adding features.
+I stay hands-on with a modern AI stack — using Figma AI, VSCode Copilot, and AI Studio to move from concept to functional PoC quickly. I apply LLMs and hybrid AI pipelines to solve specific workflow problems, not to add features for their own sake.
 
 <strong>Core Focus:</strong>
-- <strong>Product Strategy</strong>: Roadmap Vision, GTM, and P&L Alignment.
-- <strong>Systems Architecture</strong>: Multi-tenant SaaS, Scaling, and Complex Data Workflows.
-- <strong>AI Implementation</strong>: GenAI, LLM Frameworks, and Technical Feasibility.
-- <strong>Hands-on Prototyping</strong>: SQL, BI, Figma, and VSCode.
+- <strong>Product Strategy</strong>: Roadmap, GTM, and P&L Alignment.
+- <strong>Systems Architecture</strong>: Multi-tenant SaaS and Complex Data Workflows.
+- <strong>AI Implementation</strong>: GenAI, LLM, and Hybrid Pipelines.
+- <strong>Hands-on Prototyping</strong>: SQL, BI, and Figma.
 `,
   languages: ["English (Advanced)", "Urdu (Native)"],
   certifications: [
@@ -46,14 +46,14 @@ I stay hands-on with a modern AI stack, using VSCode Copilot, Claude AI, Figma, 
       title: "Senior Product Manager",
       company: "DataQ Health",
       dates: "03/2025 - Present",
-      location: "Islamabad, Pakistan",  
+      location: "Islamabad, Pakistan",
       points: [
-        "Scaled 360Deeplearn from MVP to an enterprise population health platform supporting 15K+ providers and 2M+ patient records.",
-        "Designed unified data and workflow architecture across Claims, FHIR, CCDA, QRDA, and ADT streams.",
-        "Built AI-assisted and rules-driven workflows (patient stratification, chart review, data extraction), improving operational efficiency and reducing manual effort.",
-        "Drove rapid MVP and prototyping approach (SQL, BI, workflow simulations) to accelerate validation and shorten time-to-market.",
-        "Reduced client onboarding timelines and improved go-live speed across enterprise implementations.",
-        "Integrated external risk models (Milliman MARA) for financial and utilization insights."
+        "Scaled 360Deeplearn from MVP to an enterprise population health platform supporting 15K+ providers and 2M+ patient records across value-based care, risk adjustment, and quality programs.",
+        "Shipped Patient Stratification / Cohort Builder into production — reducing patient identification time by ~70–80% and improving care program enrollment efficiency across ACO and provider clients.",
+        "Shipped hybrid AI document processing pipeline (OCR + NLP + rules + selective AI fallback) — reducing processing cost by ~80–90% and improving throughput by 3–5x while maintaining clinical accuracy.",
+        "Introduced AI-assisted chart review into production workflows — increasing reviewer throughput by 2–3x and significantly reducing manual effort per case.",
+        "Designed unified data and workflow architecture across Claims, FHIR, CCDA, QRDA, and ADT streams to support enterprise-scale data ingestion.",
+        "Integrated Milliman MARA risk models for financial and utilization insights across enterprise implementations."
       ]
     },
     {
@@ -63,12 +63,11 @@ I stay hands-on with a modern AI stack, using VSCode Copilot, Claude AI, Figma, 
       dates: "02/2018 - 03/2025",
       location: "Islamabad, Pakistan",
       points: [
-        "Delivered enterprise healthcare products for risk adjustment, quality reporting, and population analytics.",
-        "Translated complex workflows into scalable product features across care management and analytics.",
-        "Built working prototypes (SQL, dashboards, workflows) to accelerate stakeholder alignment and product validation.",
-        "Led cross-functional teams across data engineering, product, and QA.",
-        "Delivered rapid POCs for client pilots, reducing sales cycles and improving adoption.",
-        "Implemented Johns Hopkins ACG for predictive analytics across Medicare and commercial populations."
+        "Owned end-to-end product delivery for risk adjustment, quality reporting, and population analytics — translating complex payer and clinical workflows into shipped, scalable features.",
+        "Delivered population health SaaS onboarding in 2 weeks vs. competitor timelines of several months, using live client validation sessions with working prototypes before full build.",
+        "Implemented Johns Hopkins ACG system for predictive risk analytics across Medicare and commercial populations.",
+        "Drove rapid POC-to-production cycles that reduced sales cycle time by ~30–50% by giving clients working software to react to rather than slides.",
+        "Collaborated across data engineering, QA, and clinical SMEs to ship complex healthcare products on schedule and within regulatory constraints."
       ]
     },
     {
@@ -162,7 +161,7 @@ I stay hands-on with a modern AI stack, using VSCode Copilot, Claude AI, Figma, 
       "location": "ISB/US - Remote",
       "description": "Analytics and cohort-building engine powering value-based care programs. Unifies claims, clinical, and utilization data to surface risks, identify gaps, and drive actionable workflows for ACOs and provider groups.",
       "bullets": [
-        "Started alone as an Architect and grew a team of 85+ developers, scrum masters, product managers, data scientists, and QA engineers."
+        "Started as a solo architect and helped grow the team to 85+ engineers, data scientists, scrum masters, PMs, and QA engineers — scaling from MVP to enterprise adoption"
       ]
     },  
     {
