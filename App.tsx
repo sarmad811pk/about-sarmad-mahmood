@@ -18,6 +18,8 @@ const resumeData: ResumeData = {
 
 Most of my career has been in Healthcare IT—building systems that handle high-density data, complex workflows, and regulatory requirements at scale. I've supported 15K+ providers and millions of patient records, where the cost of poor product decisions is measured in clinical and financial outcomes, not just user experience.
 
+Before that, I built and scaled e-commerce platforms serving 1,100+ franchises across 13 countries, and developed ERP and financial software modules for enterprise clients. That background gives me hands-on experience with transactional systems, multi-currency commerce, localization at scale, and finance-driven workflows.
+
 I stay hands-on with a modern AI stack, using VSCode Copilot, Claude AI, Figma, and AI Studio to move from concept to a functional Proof of Concept (PoC) quickly. I have a functional understanding of Prompt Engineering and LLMs, which I use to deploy cost-effective AI solutions that solve specific workflow problems rather than just adding features.
 
 <strong>Core Focus:</strong>
