@@ -7,7 +7,7 @@ import { ResumeData, Experience, Project } from './types';
 
 const resumeData: ResumeData = {
   name: "SARMAD MAHMOOD",
-  title: "Senior Product Manager | SaaS, Workflow Platforms & Data-Driven Systems | US Healthcare",
+  title: "Director of Product Management | SaaS, Workflow Platforms & Data-Driven Systems | US Healthcare",
   contact: {
     phone: "+92 345 512 0811",
     email: "sarmad811pk@gmail.com",
@@ -43,10 +43,10 @@ I stay hands-on with a modern AI stack — using Figma AI, VSCode Copilot, and A
   experience: [
     {
       id: "1",
-      title: "Senior Product Manager",
+      title: "Director of Product Management",
       company: "DataQ Health",
       dates: "03/2025 - Present",
-      location: "Islamabad, Pakistan",
+      location: "Islamabad, Pakistan - US Remote",
       points: [
         "Scaled 360Deeplearn from MVP to an enterprise population health platform supporting 15K+ providers and 2M+ patient records across value-based care, risk adjustment, and quality programs.",
         "Shipped Patient Stratification / Cohort Builder into production — reducing patient identification time by ~70–80% and improving care program enrollment efficiency across ACO and provider clients.",
