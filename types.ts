@@ -30,6 +30,11 @@ export interface Education {
   dates: string;
 }
 
+export interface SkillGroup {
+  category: string;
+  items: string[];
+}
+
 export interface ResumeData {
   name: string;
   title: string;
@@ -40,6 +45,7 @@ export interface ResumeData {
     location: string;
   };
   summary: string;
+  skills?: SkillGroup[];
   experience: Experience[];
   projects: Project[];
   certifications: Certification[];

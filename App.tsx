@@ -1,9 +1,10 @@
 import React, { useRef } from 'react';
 import { Phone, Mail, MapPin, Linkedin, Printer } from './components/Icons';
-import { ResumeData, Experience, Project } from './types';
+import { ResumeData, Experience, Project, SkillGroup } from './types';
 
 // --- DATA CONFIGURATION ---
 // You can edit the content here directly to update the CV.
+// URL param ?CVID=2 loads the .NET Architect profile.
 
 const resumeData: ResumeData = {
   name: "SARMAD MAHMOOD",
@@ -211,12 +212,276 @@ I stay hands-on with a modern AI stack — using Figma AI, VSCode Copilot, and A
   ]
 };
 
+// ─── CVID=2 — Cloud-Native Systems Architect Profile ─────────────────────────
+const resumeDataDotNet: ResumeData = {
+  name: "SARMAD MAHMOOD",
+  title: "Solution Architect | Healthcare AI, Data Platforms & Workflow Systems",
+  contact: {
+    phone: "+92 345 5120 811",
+    email: "sarmad811pk@gmail.com",
+    linkedin: "https://www.linkedin.com/in/sarmadmahmood/",
+    location: "ISB",
+  },
+  summary: `Solution Architect with 18+ years of experience designing and delivering enterprise-scale healthcare platforms across SaaS, data, and AI-driven workflow systems.
+
+Specialized in translating complex client requirements into scalable, compliant, and workflow-integrated solutions. Extensive experience working with US healthcare systems (15K+ providers, 2M+ patients), with strong understanding of FHIR, claims, ADT, CCDA, and population health architectures.
+
+Proven ability to lead client-facing solutioning engagements — conducting technical discovery, running live prototype sessions, and aligning stakeholders across clinical, business, and engineering teams. Strong focus on workflow adoption, system integration, and real-world deployment constraints — ensuring solutions are not only technically sound but also usable in operational environments.
+
+Comfortable operating in cross-cultural, enterprise environments, with readiness to support large-scale transformation initiatives onsite and remotely.
+
+`,skills: [
+  {
+    "category": "Solution Architecture & Client Engagement",
+    "items": [
+      "Client Solutioning & Technical Discovery Workshops",
+      "Stakeholder Alignment (Clinical, Business, Engineering)",
+      "Requirements-to-Architecture Translation",
+      "Solution Prototyping & Delivery Alignment"
+    ]
+  },
+  {
+    "category": "Enterprise Architecture & Distributed Systems",
+    "items": [
+      "Microservices & Event-Driven Architecture",
+      "Multi-tenant SaaS Platforms",
+      "Domain-Driven Design (DDD) & CQRS",
+      "Scalable System Design & API Architecture",
+      "Secure Integration Patterns (REST & Event-based)"
+    ]
+  },
+  {
+    "category": "Healthcare Interoperability & Data Systems",
+    "items": [
+      "FHIR, HL7 (ADT), CCDA Integrations",
+      "Claims & Clinical Data Exchange",
+      "Provider Workflow & Care Gap Systems",
+      "Clinical Documentation & Data Mapping"
+    ]
+  },
+  {
+    "category": "Data, AI & Intelligence Systems",
+    "items": [
+      "SQL Server, NoSQL & ETL Pipelines",
+      "Analytics Platforms & Semantic Modeling",
+      "LLM & NLP-Based Systems",
+      "OCR & Document Intelligence",
+      "Hybrid AI Architectures (Rules + ML + LLM)"
+    ]
+  },
+  {
+    "category": "Cloud, Security & Platform Engineering",
+    "items": [
+      ".NET Core, Node.js, Azure Services",
+      "REST APIs & Secure Data Exchange",
+      "HIPAA-Aligned Architecture & Compliance",
+      "Identity & Access (OAuth2, Azure AD, JWT, RBAC)",
+      "Observability (Logging, Monitoring, Tracing)"
+    ]
+  }
+],
+  experience: [
+    {
+      id: "1",
+      title: "Solution Architect",
+      company: "DataQ Health",
+      dates: "03/2025 - Present",
+      location: "Islamabad, Pakistan - US Remote",
+      points: [
+        "Lead solution architecture and client-facing engagements for enterprise healthcare platforms supporting 15K+ providers and 2M+ patient records.",
+        "Drive technical discovery sessions with clients — translating clinical, operational, and financial requirements into scalable system architectures.",
+        "Designed unified data architecture integrating FHIR, Claims, ADT, and CCDA streams to support real-time analytics and workflow automation.",
+        "Architected AI-driven ambient documentation and chart review systems — embedding outputs into provider workflows to reduce documentation burden and improve efficiency.",
+        "Defined integration strategies with EHR systems — focusing on workflow embedding, data consistency, and write-back capabilities.",
+        "Led rapid prototype-led solutioning approach — enabling client validation within weeks and accelerating deal cycles by 30–50%.",
+        "Act as bridge between client stakeholders, product teams, and engineering — ensuring alignment between business goals and technical delivery."
+      ]
+    },
+    {
+      id: "2",
+      title: "Technical Product Manager / Architect",
+      company: "DataQ Health",
+      dates: "02/2018 - 03/2025",
+      location: "Islamabad, Pakistan",
+      points: [
+        "Owned end-to-end solution design and delivery for population health, risk adjustment, and quality reporting systems.",
+        "Led architecture of data ingestion pipelines across claims, clinical, and utilization data — enabling scalable analytics and reporting.",
+        "Worked closely with clients and SMEs to translate regulatory and operational requirements into deployable solutions.",
+        "Implemented predictive risk models (ACG, MARA) and integrated them into enterprise workflows.",
+        "Enabled rapid POC-to-production cycles through live client validation sessions — reducing onboarding timelines from months to weeks."
+      ]
+    },
+    {
+      id: "3",
+      title: "Application & Data Architect",
+      company: "DataQ Health",
+      dates: "10/2015 - 01/2018",
+      location: "Islamabad, Pakistan",
+      points: [
+        "Designed scalable healthcare data platforms using .NET and SQL Server with focus on performance and compliance.",
+        "Built integration pipelines and reporting systems supporting Medicare analytics and provider workflows.",
+        "Defined data models and system architecture supporting large-scale population health analytics."
+      ]
+    },
+    {
+      id: "4",
+      title: "Application Architect",
+      company: "Sybrid Private Limited",
+      dates: "04/2014 - 09/2015",
+      location: "Islamabad, Pakistan",
+      points: [
+        "Designed BI and analytics applications for ACO clients — worked directly with clinical and business stakeholders to translate care workflow requirements into usable, data-driven tooling.",
+        "Built dashboard APIs and data services that gave care managers actionable visibility into patient risk and quality gaps — connecting architecture decisions to clinical outcomes.",
+        "Delivered proof-of-concept solutions validated with clients before committing to full build — an early habit of prototype-first product validation."
+      ]
+    },
+    {
+      id: "5",
+      title: "Team Lead, Web Development",
+      company: "Netsolace, Inc.",
+      dates: "01/2013 - 03/2014",
+      location: "Islamabad, Pakistan",
+      points: [
+        "Led development of global e-commerce solutions deployed across high-traffic, load-balanced Azure environments.",
+        "Architected multi-language, multi-currency platforms with secure payment gateway integrations (PayPal, Bank of America).",
+        "Mentored developers, conducted code reviews, and enforced architectural standards across a distributed team."
+      ]
+    },
+    {
+      id: "6",
+      title: "Senior Web Engineer",
+      company: "Netsolace, Inc.",
+      dates: "10/2008 - 12/2012",
+      location: "Islamabad, Pakistan",
+      points: [
+        "Core engineer for Edible Arrangements' global e-commerce platform — serving 1100+ franchises across 13 countries.",
+        "Optimized platform for scale, security, and performance — including query tuning, caching strategies, and load testing.",
+        "Delivered mobile responsiveness and payment integrations; worked in a cross-functional team of 12 developers and QA."
+      ]
+    },
+    {
+      id: "7",
+      title: "Software Engineer",
+      company: "TMR Consulting (Pvt.) Limited",
+      dates: "12/2006 - 02/2008",
+      location: "Islamabad, Pakistan",
+      points: [
+        "Built financial software modules using .NET Smart Client (WinForms) + SQL Server — transaction processing and reporting interfaces.",
+        "Designed prototypes aligned to CMA-driven requirements, delivering working modules in tight cycles.",
+        "Developed web applications (ASP.NET / PHP) for client task-tracking and internal workflow systems."
+      ]
+    },
+    // {
+    //   id: "8",
+    //   title: "Assistant Software Engineer",
+    //   company: "Infomist Services",
+    //   dates: "06/2005 - 12/2005",
+    //   location: "Rawalpindi, Pakistan",
+    //   points: [
+    //     "Supported senior developers with VS.NET coding and implementation.",
+    //     "Built data conversion applications across multiple formats."
+    //   ]
+    // }
+  ],
+  projects: [
+    {
+      "id": "p0",
+      "title": "360Suite – Cloud-Native Healthcare Platform",
+      "role": "Architect & Product Lead",
+      "dates": "04/2014 - Present",
+      "location": "ISB/US - Remote",
+      "description": "20+ interconnected microservices supporting analytics, care management, quality reporting, risk adjustment, ADT processing, RPM, and patient insights — deployed on Azure (App Services, AKS, Service Bus).",
+      "bullets": [
+        "Designed service decomposition strategy, API contracts, shared auth middleware, and messaging topology.",
+        "Grew the platform from a solo-architect monolith to an 85+ person engineering organization with clear service ownership boundaries."
+      ]
+    },
+    {
+      "id": "p1",
+      "title": "360Deeplearn – Population Health Analytics Engine",
+      "role": "Lead Architect / Product Owner",
+      "dates": "04/2014 - Present",
+      "location": "ISB/US - Remote",
+      "description": "Core analytics and cohort-building engine — REST APIs + SQL Server + background processing workers. Unifies Claims, FHIR, CCDA, and ADT data to surface risks and drive care workflows for ACOs and provider groups.",
+      "bullets": [
+        "Designed multi-tenant data model, API versioning strategy, and async processing pipeline.",
+        "Integrated Johns Hopkins ACG and Milliman MARA via service abstraction layers."
+      ]
+    },
+    {
+      "id": "p2",
+      "title": "AI Ambient Documentation Service",
+      "role": "Architect & Product Owner",
+      "dates": "2025 - Present",
+      "location": "ISB/US - Remote",
+      "description": "Standalone service for real-time physician-patient conversation capture, diarization, and automated encounter note generation — eliminating manual transcription from clinical workflows.",
+      "bullets": [
+        "Designed streaming API, audio processing pipeline, and clinical data isolation boundary.",
+        "Leading in-house rebuild replacing third-party dependency with proprietary speech-to-text and speaker identification."
+      ]
+    },
+    {
+      "id": "p19",
+      "title": "Edible Arrangements – E-Commerce Platform",
+      "role": "Senior Developer",
+      "dates": "10/2008 - 12/2012",
+      "location": "ISB, PK – OnSite",
+      "description": "Global e-commerce platform serving 1100+ franchises across 13 countries — high-traffic, load-balanced, with real-time order processing and payment integrations.",
+      "bullets": [
+        "Full-stack development, SQL Server schema design, and performance optimization.",
+        "Payment integrations (PayPal, Bank of America) and mobile responsiveness delivery."
+      ]
+    }
+  ],
+  certifications: [
+    { id: "1", title: "The Complete Agentic AI Engineering Course (2025): OpenAI SDK, CrewAI, LangGraph, AutoGen, MCP", provider: "Udemy" },
+    { id: "2", title: "AI Agents: The Future of Work for Leaders and Managers", provider: "Udemy" },
+    { id: "3", title: "User Experience (UX): The Ultimate Guide to Usability and UX", provider: "Udemy" },
+    { id: "4", title: "Become a Product Manager", provider: "Udemy" },
+    { id: "5", title: "User Story Masterclass: Your In-Depth Guide to User Stories", provider: "Udemy" },
+  ],
+  education: [
+    { id: "1", degree: "BS, Information Technology", school: "University of Engineering and Technology, Taxila", dates: "01/2002 - 12/2006" },
+    { id: "2", degree: "FSC, Computer Science", school: "IMCB G-10/4 Islamabad", dates: "01/1990 - 12/2002" },
+  ],
+  languages: ["English (Advanced)", "Urdu (Native)"],
+};
+// ─────────────────────────────────────────────────────────────────────────────
+
+// Pick CV based on ?CVID= URL param
+const urlParams = new URLSearchParams(window.location.search);
+const cvId = urlParams.get('CVID');
+const activeResumeData: ResumeData = cvId === '2' ? resumeDataDotNet : resumeData;
+
 // --- COMPONENTS ---
 
 const SectionHeader = ({ title }: { title: string }) => (
   <h2 className="text-lg sm:text-xl font-bold uppercase border-b-2 border-black mb-4 sm:mb-6 pb-2 tracking-wider mt-6 sm:mt-8 first:mt-0 print:text-lg print:mb-4 print:mt-6 break-after-avoid">
     {title}
   </h2>
+);
+const SectionHeader2 = ({ title }: { title: string }) => (
+  <div className="text-sm sm:text-base font-semibold uppercase border-b border-gray-400 mb-3 sm:mb-4 pb-1 tracking-wide mt-2 sm:mt-3 first:mt-0 text-gray-600 print:text-sm print:mb-3 print:mt-2 break-after-avoid">
+    {title}
+  </div>
+);
+
+const SkillsSection: React.FC<{ skills: SkillGroup[] }> = ({ skills }) => (
+  <section className="mb-8 avoid-break">
+    <SectionHeader2 title="skills & expertise" />
+    <div className="space-y-3">
+      {skills.map((group, idx) => (
+        <div key={idx}>
+          <div className="text-xs font-bold uppercase tracking-wider text-gray-500 mb-1">{group.category}</div>
+          <div className="flex flex-wrap gap-1.5">
+            {group.items.map((item, i) => (
+              <span key={i} className="text-xs bg-blue-50 text-blue-800 border border-blue-200 rounded px-2 py-0.5 font-medium print:text-[11px]">{item}</span>
+            ))}
+          </div>
+        </div>
+      ))}
+    </div>
+  </section>
 );
 
 const ExperienceItem: React.FC<{ exp: Experience }> = ({ exp }) => (
@@ -307,30 +572,30 @@ const App: React.FC = () => {
         <header className="flex flex-col lg:flex-row justify-between items-start border-b-4 border-black pb-6 mb-8 gap-6">
           <div className="flex-1">
             <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-extrabold text-gray-900 uppercase tracking-tight mb-3">
-              {resumeData.name}
+              {activeResumeData.name}
             </h1>
             <h2 className="text-sm sm:text-base md:text-lg lg:text-xl text-cv-blue font-bold mb-6 leading-snug print:text-lg">
-              {resumeData.title}
+              {activeResumeData.title}
             </h2>
             
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3 text-xs sm:text-sm font-medium text-gray-600 print:flex print:flex-wrap print:gap-4">
               <div className="flex items-center gap-2 hover:text-cv-blue transition-colors">
                 <Phone size={16} className="text-cv-blue flex-shrink-0" />
-                <span className="break-all">{resumeData.contact.phone}</span>
+                <span className="break-all">{activeResumeData.contact.phone}</span>
               </div>
               <div className="flex items-center gap-2 hover:text-cv-blue transition-colors">
                 <Mail size={16} className="text-cv-blue flex-shrink-0" />
-                <a href={`mailto:${resumeData.contact.email}`} className="break-all">{resumeData.contact.email}</a>
+                <a href={`mailto:${activeResumeData.contact.email}`} className="break-all">{activeResumeData.contact.email}</a>
               </div>
               <div className="flex items-center gap-2 hover:text-cv-blue transition-colors">
                 <Linkedin size={16} className="text-cv-blue flex-shrink-0" />
-                <a href={resumeData.contact.linkedin} target="_blank" rel="noreferrer" className="break-all">
-                  {resumeData.contact.linkedin.replace("https://www.", "")}
+                <a href={activeResumeData.contact.linkedin} target="_blank" rel="noreferrer" className="break-all">
+                  {activeResumeData.contact.linkedin.replace("https://www.", "")}
                 </a>
               </div>
               <div className="flex items-center gap-2 hover:text-cv-blue transition-colors">
                 <MapPin size={16} className="text-cv-blue flex-shrink-0" />
-                <span>{resumeData.contact.location}</span>
+                <span>{activeResumeData.contact.location}</span>
               </div>
             </div>
           </div>
@@ -351,44 +616,33 @@ const App: React.FC = () => {
           {/* Left Column (Main) */}
           <div className="flex flex-col">
             {/* Summary */}
-            <section className="mb-8 bg-gray-50 p-4 sm:p-6 -mx-4 sm:-mx-6 md:-mx-8 lg:-mx-12 xl:mx-0 xl:bg-transparent xl:p-0 rounded-lg print:bg-transparent print:p-0 print:mx-0">
+            <section className="mb-0 bg-gray-50 p-4 sm:p-6 -mx-4 sm:-mx-6 md:-mx-8 lg:-mx-12 xl:mx-0 xl:bg-transparent xl:p-0 rounded-lg print:bg-transparent print:p-0 print:mx-0">
               <SectionHeader title="Summary" />
-              <p className="text-sm leading-relaxed text-gray-700 text-justify whitespace-pre-line print:text-[13px]">
-                <div dangerouslySetInnerHTML={{ __html: resumeData.summary }} />
-              </p>
+              <div className="text-sm leading-relaxed text-gray-700 text-justify whitespace-pre-line print:text-[13px]">
+              <div dangerouslySetInnerHTML={{ __html: activeResumeData.summary }} />
+              </div>
             </section>
 
-            {/* Experience Section */}
+            {/* Skills — shown on page 1 directly after summary (CVID=2 only) */}
+            {activeResumeData.skills && <SkillsSection skills={activeResumeData.skills} />}
+
+            {/* Experience Section — forced to new page in print */}
             <section className="mb-8 break-inside-auto break-before-page">
               <SectionHeader title="Experience" />
-              {resumeData.experience.map((exp) => (
+              {activeResumeData.experience.map((exp) => (
                 <ExperienceItem key={exp.id} exp={exp} />
               ))}
             </section>
-
-            
 
           </div>
 
             {/* Right Column (Sidebar) */}
             <div className="flex flex-col">
-            
-
-
-           
-
-            {/* Video Placeholder */}
-            {/* <section className="mb-8 avoid-break">
-              <SectionHeader title="Introduction Video" />
-              <div className="w-full aspect-video bg-gray-200 border border-gray-300 rounded-lg flex items-center justify-center text-gray-500">
-                <span className="text-sm sm:text-base">Your 2-5 min video can be embedded here</span>
-              </div>
-            </section> */}
 
             {/* Projects */}
             <section className="mb-8 break-before-page">
               <SectionHeader title="Projects & Products" />
-              {resumeData.projects.map((proj) => (
+              {activeResumeData.projects.map((proj) => (
                 <ProjectItem key={proj.id} project={proj} />
               ))}
             </section>
@@ -397,7 +651,7 @@ const App: React.FC = () => {
              <section className="mb-8 avoid-break">
               <SectionHeader title="Certifications" />
               <div className="space-y-4">
-                {resumeData.certifications.map((cert) => (
+                {activeResumeData.certifications.map((cert) => (
                   <div key={cert.id}>
                     <h3 className="text-sm sm:text-base font-bold text-gray-900 leading-tight mb-1 print:text-sm">{cert.title}</h3>
                     <div className="text-xs sm:text-sm text-gray-500 print:text-xs">{cert.provider}</div>
@@ -409,7 +663,7 @@ const App: React.FC = () => {
              {/* Education Section */}
              <section className="mb-8 avoid-break">
               <SectionHeader title="Education" />
-              {resumeData.education.map((edu) => (
+              {activeResumeData.education.map((edu) => (
                 <div key={edu.id} className="mb-6">
                   <h3 className="text-base sm:text-lg font-bold text-gray-900 print:text-base">{edu.degree}</h3>
                   <div className="text-sm sm:text-base font-semibold text-cv-blue mt-1 print:text-sm">{edu.school}</div>
@@ -427,7 +681,7 @@ const App: React.FC = () => {
             <section className="mb-8 avoid-break">
               <SectionHeader title="Languages" />
               <div className="grid grid-cols-2 gap-4">
-              {resumeData.languages.map((lang, idx) => (
+              {activeResumeData.languages.map((lang, idx) => (
                 <div className="grid-cell" key={idx}>
                   <div className="font-bold text-sm sm:text-base text-gray-900 print:text-sm">{lang.split(' ')[0]}</div>
                   <div className="text-xs sm:text-sm text-gray-500 print:text-xs">{lang.split(' ').slice(1).join(' ')}</div>
